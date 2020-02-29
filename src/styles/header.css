@@ -45,8 +45,8 @@ a {
 
 }
 .fab:hover{
-    transform: rotate(30deg);
-    -webkit-transform: rotate(30deg);
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
 }
 
 

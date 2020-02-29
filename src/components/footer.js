@@ -4,7 +4,7 @@ import "../styles/footer.css"
 const Footer = () => {
     return(
         <div className='footer'>
-            <p>Made with Gatsby and <span role="img" arial-label="black heart emoji">🖤</span> by pachicodes ©2020 </p>
+            <p>Made with Gatsby and <span role="img" arial-label="black heart emoji">🖤</span> by Joseph ©2020 </p>
         </div>
     )
 };
