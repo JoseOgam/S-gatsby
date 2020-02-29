@@ -1,11 +1,16 @@
 import React from "react"
 import {Link} from "gatsby";
 import Header from "../components/header"
+import "../styles/index.css"
+import Layout from "../components/layout";
 
-export default () => <div style={{color: `purple`}}>
-    <Link to="/contact/">Contact</Link>
-    <Header headerText="Hello Gatsby!" />
-    <p>I love coding</p>
-    <img src="https://source.unsplash.com/random/400x200" alt="" />
-
-</div>
+const Index = () =>{
+    return (
+        <Layout>
+            <h1 className="opener">Portfolio</h1>
+            <p className="subtitle">Here are a few of my projects. For more projects and repositories,
+                check my <a href="https://github.com/JoseOgam">GitHub</a></p>
+        </Layout>
+    )
+};
+export default Index
