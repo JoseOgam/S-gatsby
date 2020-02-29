@@ -6,7 +6,7 @@ import aboutStyle from "../styles/about.css";
 const About = (props) => {
     return (
         <Layout>
-            <h2>My name is Jose, nice to meet you!</h2>
+            <h2>My name is Joseph, nice to meet you!</h2>
 
             <div className={aboutStyle.main}>
                 <div className={aboutStyle.izquierda}>
