@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
-import aboutStyle from "../styles/about.css";
+import aboutStyle from "./about.scss";
 
 
 const About = (props) => {
@@ -52,7 +52,7 @@ const About = (props) => {
                         </a>
                         <a className={aboutStyle.social} href="https://twitter.com/joseogam" target="_blank"
                            rel="noopener noreferrer">
-                            <i class="fab fa-twitter"/>
+                            <i className="fab fa-twitter"/>
                         </a>
                     </div>
                 </div>

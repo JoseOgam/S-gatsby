@@ -1,10 +1,10 @@
 const myportfolio = [
     {
-        title: '',
-        sinopsis: '',
-        desc: '',
+        title: 'portfolio',
+        sinopsis: 'built with love',
+        desc: 'xxxx',
         img: '',
-        repo: '',
+        repo: './portfolio/images/grr.jpg',
         idx: 1
     },
 ];

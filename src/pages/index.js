@@ -1,5 +1,5 @@
 import React from "react"
-import "../styles/index.css"
+import "./index.styles.scss"
 import Layout from "../components/layout";
 import myportfolio from "../components/myportfolio";
 
@@ -36,7 +36,7 @@ const Index = () =>{
             <h1 className="opener">Portfolio</h1>
             <p className="subtitle">Here are a few of my projects. For more projects and repositories,
                 check my <a href="https://github.com/JoseOgam">GitHub</a></p>
-
+            {showPortfolio()}
         </Layout>
     )
 };
